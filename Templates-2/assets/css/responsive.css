@@ -1,0 +1,204 @@
+/*
+=============================
+Start Responsive CSS
+=============================
+*/
+
+@media screen and (min-width: 1366px) and (max-width:1800px) {
+    .optimize-buissnes .buissness-text {
+        padding: 0 85px 0 85px;
+    }
+    .optimize-buissnes .buissness-text h2 {
+        padding-top: 55px;
+        font-size: 74px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1366px) {
+    /* start optimize Buissness */
+    .optimize-buissnes .buissness-text h2 {
+        padding-top: 67px;
+        font-size: 84px;
+    }
+    .optimize-buissnes .buissness-text {
+        padding: 80px 30px 80px 30px;
+    }
+    .optimize-buissnes .buissness-text h2 {
+        padding-top: 40px;
+        font-size: 40px;
+        line-height: 70px;
+    }
+    .optimize-buissnes .buissness-text p {
+        font-size: 27px;
+    }
+    .optimize-buissnes .buissness-text .custom-btn {
+        margin-top: 30px;
+    }
+    .optimize-buissnes .buissness-img {
+        width: 100%;
+        height: 100%;
+    }
+    .optimize-buissnes .buissness-img {
+        height: 100%;
+    }
+    .buissness-img img {
+        object-fit: inherit;
+        height: 100%;
+    }
+    .optimize-buissnes .buissness-text {
+        padding: 70px 85px 70px 85px;
+    }
+    /* end optimize Buissness */
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    /* start NFT_offer css */
+    .offer_inner .offer_box .offer_content {
+        padding: 70px 10px;
+        min-height: 166px;
+    }
+    .offer_inner {
+        grid-template-columns: 31% 31% 31%;
+        column-gap: 20px;
+        padding: 0 15px;
+        justify-content: center;
+    }
+    .offer_content h3 {
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .offer_content ul li {
+        list-style: disc;
+        font-size: 15px;
+    }
+    .offer_box .offer_content .icon_box {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+    }
+    .offer_box a.custom-btn {
+        min-width: auto;
+        width: 67%;
+        min-height: 40px;
+        line-height: 40px;
+    }
+    /* start optimize Buissness */
+    .optimize-buissnes {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .optimize-buissnes .buissness-text {
+        padding: 80px 30px 80px 30px;
+    }
+    .optimize-buissnes .buissness-text h2 {
+        padding-top: 40px;
+        font-size: 55px;
+        line-height: 87px;
+    }
+    .optimize-buissnes .buissness-text .custom-btn {
+        margin-top: 30px;
+    }
+    .optimize-buissnes .buissness-img {
+        width: 100%;
+        height: 100%;
+    }
+    .optimize-buissnes .buissness-img {
+        height: 100%;
+    }
+    .buissness-img img {
+        object-fit: inherit;
+        height: 100%;
+    }
+    /* end optimize Buissness */
+}
+
+@media screen and (max-width:767px) {
+    .custom-btn {
+        min-height: 44px;
+        max-width: 140px;
+        padding: 0px 14px;
+        line-height: 44px;
+        font-size: 16px;
+    }
+    .our-neft .neft-box {
+        grid-template-columns: 93%;
+        justify-content: center;
+    }
+    .our-neft .heading-title {
+        padding-left: 17px;
+    }
+    .our-neft .heading-title h2 {
+        font-size: 30px;
+    }
+    .our-neft .heading-title p {
+        font-size: 20px;
+        padding-top: 0px;
+    }
+    .our-neft .neft-box {
+        padding-top: 22px;
+    }
+    .item-img .item-text h3 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .item1 .item-btn {
+        padding-top: 20px;
+    }
+    .neft-box .item1 {
+        padding-top: 16px;
+    }
+    /* start who_we_are section css */
+    .who_we_are {
+        padding: 40px 0;
+    }
+    .who_we_text {
+        padding: 0 15px;
+    }
+    .who_we_are h2 {
+        font-size: 36px;
+        margin: 5px 0;
+    }
+    .who_we_are p {
+        font-size: 17px;
+        line-height: 29px;
+    }
+    /* start NFT_offer css */
+    .offer_inner {
+        grid-template-columns: 100%;
+        column-gap: 20px;
+        row-gap: 70px;
+    }
+    .offer_inner .offer_box .offer_content {
+        padding: 80px 28px 50px;
+        text-align: left;
+    }
+    .top_heading h2 {
+        font-size: 36px;
+    }
+    /* end NFT_offer css */
+    /* start optimize Buissness */
+    .optimize-buissnes {
+        grid-template-columns: 100%;
+    }
+    .optimize-buissnes .buissness-text {
+        padding: 50px 40px 50px 40px;
+    }
+    .optimize-buissnes .buissness-text h2 {
+        padding-top: 22px;
+        font-size: 22px;
+        line-height: 44px;
+        font-weight: 600;
+    }
+    .optimize-buissnes .buissness-text p {
+        font-size: 19px;
+        padding-top: 10px;
+        font-weight: 400;
+    }
+    .optimize-buissnes .buissness-text .custom-btn {
+        margin-top: 30px;
+    }
+    .optimize-buissnes .buissness-img {
+        height: 100%;
+    }
+}

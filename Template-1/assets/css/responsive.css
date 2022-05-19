@@ -1,0 +1,122 @@
+/* 
+=============================
+Start Responsive CSS 
+=============================
+*/
+
+@media screen and (min-width: 1366px) and (max-width:1800px) {}
+
+@media screen and (min-width: 1025px) and (max-width:1366px) {
+    .about-us {
+        padding: 58px 0px;
+    }
+    .about-us .about-text p {
+        padding-top: 10px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .about-us .about-text h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    /* Start neft Template  */
+    .our-neft .neft-box {
+        grid-template-columns: 46% 46%;
+        justify-content: center;
+    }
+    .our-neft .heading-title {
+        padding-left: 17px;
+    }
+    /* end Start neft Template  */
+    /* start about template  */
+    .about-us {
+        padding: 58px 0px;
+    }
+    .about-us .about-text p {
+        padding-top: 10px;
+        font-size: 13px;
+        line-height: 28px;
+    }
+    .about-us .about-text h2 {
+        font-size: 28px;
+    }
+    .about-us .about-text {
+        padding: 45px;
+    }
+    .about-us .about-text .item-btn {
+        padding-top: 17px;
+    }
+    .item-btn .custom-btn {
+        min-height: 44px;
+        max-width: 140px;
+        padding: 0px 14px;
+        line-height: 44px;
+        font-size: 14px;
+        max-width: 116px;
+    }
+    /* end about template  */
+}
+
+@media screen and (max-width:767px) {
+    /* start about template  */
+    .about-us {
+        grid-template-columns: 100%;
+        padding: 0px 0px;
+    }
+    .about-us .about-text p {
+        padding-top: 10px;
+        font-size: 13px;
+        line-height: 28px;
+    }
+    .about-us .about-text h2 {
+        font-size: 28px;
+    }
+    /* start about template  */
+    .custom-btn {
+        min-height: 44px;
+        max-width: 140px;
+        padding: 0px 14px;
+        line-height: 44px;
+        font-size: 16px;
+    }
+    .about-us .about-text {
+        padding: 38px;
+    }
+    .about-us .about-text .item-btn {
+        padding-top: 21px;
+    }
+    .about-text .item-btn .custom-btn {
+        font-size: 17px;
+    }
+    /* Start neft Template  */
+    .our-neft .neft-box {
+        grid-template-columns: 93%;
+        justify-content: center;
+    }
+    .our-neft .heading-title {
+        padding-left: 17px;
+    }
+    .our-neft .heading-title h2 {
+        font-size: 30px;
+    }
+    .our-neft .heading-title p {
+        font-size: 20px;
+        padding-top: 0px;
+    }
+    .our-neft .neft-box {
+        padding-top: 22px;
+    }
+    .item-img .item-text h3 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .item1 .item-btn {
+        padding-top: 20px;
+    }
+    .neft-box .item1 {
+        padding-top: 16px;
+    }
+    /* end neft Template  */
+}
